@@ -1,0 +1,82 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.formulario{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(192, 193, 198);
+    border: 1px solid black;
+    box-shadow: 5px 5px  black;
+}
+.dados{
+    width: 300px;
+}
+
+button{
+    border-style: none;
+    height: 30px;
+    font-size: 16px;
+    box-shadow: 5px 5px  black;
+    font-weight: 600;
+    background-color: rgb(163, 166, 165);
+
+}
+button:hover{
+    background-color: rgb(95, 225, 101);
+}
+label{
+    color: black;
+}
+input{
+    background:none;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: 0;
+    font-size: 16px;
+    color: black;
+}
+input:focus {
+    box-shadow:none;
+ }
+select{
+    background:none;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: 0;
+    color: black;
+    font-size: 16px;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: rgb(186, 100, 3);
+}
+
+/* Cor do texto do autocomplete */
+input:-webkit-autofill {
+    -webkit-text-fill-color: black;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: black !important;
+  -webkit-box-shadow: none;
+  transition: background-color 5000s ease-in-out 0s;}
